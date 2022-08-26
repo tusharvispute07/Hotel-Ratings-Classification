@@ -1,0 +1,5 @@
+pandas==1.4.1
+streamlit==1.10.0
+tensorflow==2.9.1
+tensorflow_hub==0.12.0
+tensorflow_text==2.9.0
