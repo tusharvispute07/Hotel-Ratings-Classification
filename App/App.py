@@ -26,7 +26,7 @@ def sentiment(score):
 
 @st.cache(allow_output_mutation=True)
 def Load_Model():
-    return keras.models.load_model('./data/BERT.h5', custom_objects={'KerasLayer': hub.KerasLayer})
+    return keras.models.load_model(f"{os.path.realpath(os.path.join(os.path.dirname(__file__),'data','BERT.h5'))}", custom_objects={'KerasLayer': hub.KerasLayer})
 model = Load_Model()
 pred = model.predict(review)
 prediction = sentiment(pred)
