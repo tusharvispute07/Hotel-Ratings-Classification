@@ -35,12 +35,12 @@ button = st.button('Get Sentiment')
 
 def image(pred):
     if pred < 0.3:
-        return st.image('./data/0.png', width=100, caption='Negative')
+        return st.image(f"{os.path.realpath(os.path.join(os.path.dirname(__file__),'data','0.png'))}", width=100, caption='Negative')
     elif pred <= 0.6:
-        return st.image('./data/1.png', width=100, caption='Negative')
+        return st.image(f"{os.path.realpath(os.path.join(os.path.dirname(__file__),'data','1.png'))}", width=100, caption='Negative')
     elif pred > 0.9:
-        return st.image('./data/3.png', width=100, caption='Positive')
+        return st.image(f"{os.path.realpath(os.path.join(os.path.dirname(__file__),'data','3.png'))}", width=100, caption='Positive')
     else: 
-        return st.image('./data/2.png',width=100, caption='Positive')
+        return st.image(f"{os.path.realpath(os.path.join(os.path.dirname(__file__),'data','2.png'))}", width=100, caption='Positive')
 
 image(pred)
