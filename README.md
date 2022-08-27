@@ -1,4 +1,5 @@
 # hotel Rating Classification
+![img](https://user-images.githubusercontent.com/100843008/187025381-bff7de9a-8506-4501-bb20-e58523e9df63.jpg)
 
 [CLICK HERE TO TRY THE APPLICATION!](https://tusharvispute07-hotel-ratings-classification-appapp-646t9s.streamlitapp.com/)
 
