@@ -1,5 +1,5 @@
 # Hotel Ratings Classification
-<img src="https://user-images.githubusercontent.com/100843008/187025882-9149e499-bd05-4216-b737-0e67477bd4ce.jpeg" width="265">
+<img src="https://user-images.githubusercontent.com/100843008/187025882-9149e499-bd05-4216-b737-0e67477bd4ce.jpeg" width="200">
 
 [CLICK HERE TO TRY THE APP!](https://tusharvispute07-hotel-ratings-classification-appapp-646t9s.streamlitapp.com/)
 
